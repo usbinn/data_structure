@@ -4,8 +4,8 @@ from list.circularLinkedList import CircularLinkedList
 
 if __name__ == "__main__":
   names = ["Amy", "Kevin", "Mary", "David"]
-  # name_list = LinkedListBasic()
-  name_list = CircularLinkedList()
+  name_list = LinkedListBasic()
+  # name_list = CircularLinkedList()
 
   for name in names:
     name_list.append(name)
